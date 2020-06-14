@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA6C3569247B2A0F0075288B /* SelectLoginTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C3568247B2A0F0075288B /* SelectLoginTypeViewController.swift */; };
+		FA6C356A247B2A0F0075288B /* SelectLoginTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C3568247B2A0F0075288B /* SelectLoginTypeViewController.swift */; };
 		FA973DC724688D920084E078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA973DC624688D920084E078 /* AppDelegate.swift */; };
 		FA973DCD24688D930084E078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA973DCC24688D930084E078 /* Assets.xcassets */; };
 		FA973DD324688D930084E078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA973DD124688D930084E078 /* LaunchScreen.storyboard */; };
@@ -17,6 +19,8 @@
 		FA973DFD2468F4D50084E078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA973DCC24688D930084E078 /* Assets.xcassets */; };
 		FA973E042468F51F0084E078 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA973E032468F51F0084E078 /* Login.storyboard */; };
 		FA973E052468F51F0084E078 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA973E032468F51F0084E078 /* Login.storyboard */; };
+		FAE27BE02495F5E00002583D /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE27BDF2495F5E00002583D /* ColorHelper.swift */; };
+		FAE27BE12495F5E00002583D /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE27BDF2495F5E00002583D /* ColorHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA6C3568247B2A0F0075288B /* SelectLoginTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLoginTypeViewController.swift; sourceTree = "<group>"; };
 		FA973DC324688D920084E078 /* DonAr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonAr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA973DC624688D920084E078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA973DCC24688D930084E078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		FA973E012468F4D50084E078 /* DonAr Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DonAr Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA973E022468F4D50084E078 /* DonAr copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DonAr copy-Info.plist"; path = "/Users/macbook/Documents/DonAr/DonAr copy-Info.plist"; sourceTree = "<absolute>"; };
 		FA973E032468F51F0084E078 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FAE27BDF2495F5E00002583D /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +116,13 @@
 		FA973DC524688D920084E078 /* DonAr */ = {
 			isa = PBXGroup;
 			children = (
+				FAE27BDE2495F5CF0002583D /* Helpers */,
 				FA973DC624688D920084E078 /* AppDelegate.swift */,
 				FA973DCC24688D930084E078 /* Assets.xcassets */,
 				FA973DD124688D930084E078 /* LaunchScreen.storyboard */,
 				FA973DD424688D930084E078 /* Info.plist */,
 				FA973E032468F51F0084E078 /* Login.storyboard */,
+				FA6C3568247B2A0F0075288B /* SelectLoginTypeViewController.swift */,
 			);
 			path = DonAr;
 			sourceTree = "<group>";
@@ -135,6 +143,14 @@
 				FA973DEA24688D930084E078 /* Info.plist */,
 			);
 			path = DonArUITests;
+			sourceTree = "<group>";
+		};
+		FAE27BDE2495F5CF0002583D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAE27BDF2495F5E00002583D /* ColorHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +313,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA973DC724688D920084E078 /* AppDelegate.swift in Sources */,
+				FAE27BE02495F5E00002583D /* ColorHelper.swift in Sources */,
+				FA6C3569247B2A0F0075288B /* SelectLoginTypeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +339,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA973DF82468F4D50084E078 /* AppDelegate.swift in Sources */,
+				FAE27BE12495F5E00002583D /* ColorHelper.swift in Sources */,
+				FA6C356A247B2A0F0075288B /* SelectLoginTypeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
