@@ -14,4 +14,12 @@ class ColorHelper: NSObject {
     class func beige() -> UIColor {
         return UIColor(red: 251/255, green: 248/255, blue: 233/255, alpha: 1)
     }
+    
+    class func maroon() -> UIColor {
+        return UIColor(red: 123/255, green: 35/255, blue: 34/255, alpha: 1)
+    }
+    
+    class func red() -> UIColor {
+        return UIColor(red: 196/255, green: 56/255, blue: 57/255, alpha: 1)
+    }
 }

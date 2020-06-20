@@ -16,43 +16,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="udC-Mq-MeA">
-                                <rect key="frame" x="192" y="134" width="30" height="90"/>
+                                <rect key="frame" x="107" y="134" width="200" height="300"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="7OA-ee-ZC1"/>
-                                    <constraint firstAttribute="width" constant="30" id="oWD-Bc-hHs"/>
+                                    <constraint firstAttribute="height" constant="300" id="7OA-ee-ZC1"/>
+                                    <constraint firstAttribute="width" constant="200" id="oWD-Bc-hHs"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Hz-eR-ZGT">
                                 <rect key="frame" x="30" y="692" width="354" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Ingresar"/>
                                 <connections>
                                     <action selector="loginWithFacebookPressed" destination="9mY-VY-nVY" eventType="touchUpInside" id="rXa-cG-gdM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTy-c9-wga">
                                 <rect key="frame" x="30" y="742" width="354" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Registrarse"/>
                                 <connections>
                                     <action selector="loginWithGooglePressed:" destination="9mY-VY-nVY" eventType="touchUpInside" id="i47-Wq-LTe"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TSY-8u-S1y">
-                                <rect key="frame" x="162" y="234" width="90" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="H1S-tt-1xA"/>
-                                    <constraint firstAttribute="height" constant="30" id="jrk-d5-Qs0"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="wTy-c9-wga" firstAttribute="leading" secondItem="Xc7-4k-Scn" secondAttribute="leading" constant="30" id="15O-WZ-Um0"/>
                             <constraint firstItem="Xc7-4k-Scn" firstAttribute="bottom" secondItem="wTy-c9-wga" secondAttribute="bottom" constant="90" id="3Nv-IP-JEY"/>
-                            <constraint firstItem="TSY-8u-S1y" firstAttribute="top" secondItem="udC-Mq-MeA" secondAttribute="bottom" constant="10" id="D5t-2c-mh7"/>
                             <constraint firstItem="1Hz-eR-ZGT" firstAttribute="leading" secondItem="Xc7-4k-Scn" secondAttribute="leading" constant="30" id="Eaq-Dp-c9h"/>
                             <constraint firstItem="udC-Mq-MeA" firstAttribute="top" secondItem="Xc7-4k-Scn" secondAttribute="top" constant="90" id="JT3-j8-KJF"/>
                             <constraint firstItem="wTy-c9-wga" firstAttribute="top" secondItem="1Hz-eR-ZGT" secondAttribute="bottom" constant="20" id="e6F-o0-UAL"/>
-                            <constraint firstItem="TSY-8u-S1y" firstAttribute="centerX" secondItem="Xc7-4k-Scn" secondAttribute="centerX" id="hkm-cI-A2T"/>
                             <constraint firstItem="Xc7-4k-Scn" firstAttribute="trailing" secondItem="wTy-c9-wga" secondAttribute="trailing" constant="30" id="msk-OW-e6E"/>
                             <constraint firstItem="Xc7-4k-Scn" firstAttribute="trailing" secondItem="1Hz-eR-ZGT" secondAttribute="trailing" constant="30" id="sqy-XX-iLO"/>
                             <constraint firstItem="udC-Mq-MeA" firstAttribute="centerX" secondItem="Xc7-4k-Scn" secondAttribute="centerX" id="xfO-dV-Uy6"/>

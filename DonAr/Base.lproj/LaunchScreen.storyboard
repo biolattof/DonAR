@@ -21,7 +21,7 @@
                                     <constraint firstAttribute="height" constant="180" id="P0U-YR-6RX"/>
                                     <constraint firstAttribute="width" constant="100" id="pYG-yj-Ejp"/>
                                 </constraints>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashText" translatesAutoresizingMaskIntoConstraints="NO" id="efU-Mc-DZF">
                                 <rect key="frame" x="117" y="488" width="180" height="100"/>
