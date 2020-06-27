@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2Uc-we-uE3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2Uc-we-uE3">
                                 <rect key="frame" x="157" y="298" width="100" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="P0U-YR-6RX"/>
@@ -47,7 +47,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="SplashIcon" width="375" height="409.5"/>
-        <image name="SplashText" width="375" height="409.5"/>
+        <image name="SplashIcon" width="141.5" height="244.5"/>
+        <image name="SplashText" width="139.5" height="32"/>
     </resources>
 </document>

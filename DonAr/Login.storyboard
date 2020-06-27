@@ -16,32 +16,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wtD-vs-Lzy">
-                                <rect key="frame" x="0.0" y="752" width="414" height="110"/>
+                                <rect key="frame" x="0.0" y="692" width="414" height="170"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTy-c9-wga">
-                                        <rect key="frame" x="10" y="10" width="394" height="30"/>
+                                        <rect key="frame" x="50" y="30" width="314" height="30"/>
                                         <state key="normal" title="Registrarse"/>
                                         <connections>
                                             <action selector="loginWithGooglePressed:" destination="9mY-VY-nVY" eventType="touchUpInside" id="i47-Wq-LTe"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Hz-eR-ZGT">
-                                        <rect key="frame" x="10" y="70" width="394" height="30"/>
+                                        <rect key="frame" x="50" y="90" width="314" height="30"/>
                                         <state key="normal" title="Ingresar"/>
                                         <connections>
                                             <action selector="loginWithFacebookPressed" destination="9mY-VY-nVY" eventType="touchUpInside" id="rXa-cG-gdM"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="1Hz-eR-ZGT" firstAttribute="leading" secondItem="wtD-vs-Lzy" secondAttribute="leading" constant="10" id="Biq-9X-0rB"/>
+                                    <constraint firstItem="1Hz-eR-ZGT" firstAttribute="leading" secondItem="wtD-vs-Lzy" secondAttribute="leading" constant="50" id="Biq-9X-0rB"/>
                                     <constraint firstItem="1Hz-eR-ZGT" firstAttribute="top" secondItem="wTy-c9-wga" secondAttribute="bottom" constant="30" id="HUh-bf-gIJ"/>
-                                    <constraint firstAttribute="bottom" secondItem="1Hz-eR-ZGT" secondAttribute="bottom" constant="10" id="Lvy-ri-OaI"/>
-                                    <constraint firstAttribute="trailing" secondItem="1Hz-eR-ZGT" secondAttribute="trailing" constant="10" id="M6B-l1-cg5"/>
-                                    <constraint firstAttribute="trailing" secondItem="wTy-c9-wga" secondAttribute="trailing" constant="10" id="l0z-lR-Bv4"/>
-                                    <constraint firstItem="wTy-c9-wga" firstAttribute="leading" secondItem="wtD-vs-Lzy" secondAttribute="leading" constant="10" id="lMb-Mx-b1O"/>
-                                    <constraint firstItem="wTy-c9-wga" firstAttribute="top" secondItem="wtD-vs-Lzy" secondAttribute="top" constant="10" id="lbx-dz-9lE"/>
+                                    <constraint firstAttribute="bottom" secondItem="1Hz-eR-ZGT" secondAttribute="bottom" constant="50" id="Lvy-ri-OaI"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Hz-eR-ZGT" secondAttribute="trailing" constant="50" id="M6B-l1-cg5"/>
+                                    <constraint firstAttribute="trailing" secondItem="wTy-c9-wga" secondAttribute="trailing" constant="50" id="l0z-lR-Bv4"/>
+                                    <constraint firstItem="wTy-c9-wga" firstAttribute="leading" secondItem="wtD-vs-Lzy" secondAttribute="leading" constant="50" id="lMb-Mx-b1O"/>
+                                    <constraint firstItem="wTy-c9-wga" firstAttribute="top" secondItem="wtD-vs-Lzy" secondAttribute="top" constant="30" id="lbx-dz-9lE"/>
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="donarLogo" translatesAutoresizingMaskIntoConstraints="NO" id="aOk-vd-OSe">

@@ -18,7 +18,9 @@ var window: UIWindow?
 
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController =  UIStoryboard(name: "Login", bundle: nil).instantiateViewController(identifier: "SelectLoginTypeViewController") as? SelectLoginTypeViewController
+            window.rootViewController =  UIStoryboard(name: "Login",
+                                                      bundle:
+                nil).instantiateViewController(identifier: "SelectLoginTypeViewController") as? SelectLoginTypeViewController
             self.window = window
             window.makeKeyAndVisible()
         }
