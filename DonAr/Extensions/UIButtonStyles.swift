@@ -13,6 +13,15 @@ extension UIButton {
     
     func styleMaroonNoCorners() {
         self.backgroundColor = ColorHelper.maroon()
+        self.configButton()
+    }
+    
+    func styleRedNoCorners() {
+        self.backgroundColor = ColorHelper.maroon()
+        self.configButton()
+    }
+    
+    func configButton() {
         self.layer.borderWidth = 0
         self.layer.cornerRadius = 3
         self.setTitleColor(UIColor.white, for: UIControl.State())

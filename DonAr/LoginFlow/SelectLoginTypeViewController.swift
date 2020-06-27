@@ -11,8 +11,16 @@ import UIKit
 
 class SelectLoginTypeViewController: UIViewController {
     
+    @IBOutlet fileprivate weak var loginBtn: UIButton!
+    @IBOutlet fileprivate weak var signUpBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        loginBtn.styleMaroonNoCorners()
+        signUpBtn.styleRedNoCorners()
+        if let background = UIImage(named: "palmBackground") {
+            view.backgroundColor = UIColor(patternImage: background)
+        }
         
     }
     
