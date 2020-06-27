@@ -21,7 +21,12 @@ class SelectLoginTypeViewController: UIViewController {
         if let background = UIImage(named: "palmBackground") {
             view.backgroundColor = UIColor(patternImage: background)
         }
-        
+        self.navigationController?.isNavigationBarHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
     @IBAction func signUpPressed() {
