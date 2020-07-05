@@ -16,17 +16,21 @@ class SelectLoginTypeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loginBtn.styleMaroonNoCorners()
-        signUpBtn.styleRedNoCorners()
-        if let background = UIImage(named: "palmBackground") {
-            view.backgroundColor = UIColor(patternImage: background)
-        }
+        configureScreen()
         self.navigationController?.isNavigationBarHidden = true
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    func configureScreen() {
+        loginBtn.styleMaroonNoCorners()
+        signUpBtn.styleRedNoCorners()
+        if let background = UIImage(named: "palmBackground") {
+            view.backgroundColor = UIColor(patternImage: background)
+        }
     }
     
     @IBAction func signUpPressed() {
